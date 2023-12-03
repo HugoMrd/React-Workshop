@@ -14,8 +14,10 @@ Npm est le gestionnaire de paquets officiel de Node.js. Il permet d'installer, d
 
 ## **Comment allons-nous procéder ?**
 
-Vous devrez dans un premier temps crée un react project
+Vous devrez dans un premier temps crée un react project.
+
     npx create-react-app PROJECTNAME
+
 Puis par la suite, vous trouverez les exercices avec du code pour chaque exercices. Il vous suffira de copier le code et le coller dans app.js, et le compléter.
 
 ## **STEP 1: Composant de base**
