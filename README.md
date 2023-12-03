@@ -14,7 +14,9 @@ Npm est le gestionnaire de paquets officiel de Node.js. Il permet d'installer, d
 
 ## **Comment allons-nous procéder ?**
 
-Vous trouverez les exercices avec du code pour chaque exercices .Il vous suffira de copier le code et le coller dans app.js, et le compléter.
+Vous devrez dans un premier temps crée un react project
+    npx create-react-app PROJECTNAME
+Puis par la suite, vous trouverez les exercices avec du code pour chaque exercices. Il vous suffira de copier le code et le coller dans app.js, et le compléter.
 
 ## **STEP 1: Composant de base**
 
@@ -25,7 +27,7 @@ Nous allons commencer doucement, afin de vous mettre en main avec la programmati
     const HelloWorld = () => {
     // Complétez le code ici
     };
-    
+
     export default HelloWorld;
 
 ## **STEP 2: Propriétés**
@@ -101,7 +103,7 @@ Utilisez l'API JSONPlaceholder (https://jsonplaceholder.typicode.com/) pour réc
 
 ## **STEP 7: Routage avec React Router**
 
-Pour ce dernier exercides vous allez utiliser React Router pour créer deux pages : une page d'accueil et une page "À propos". Ajoutez une navigation pour passer de l'une à l'autre.
+Pour ce dernier exercides vous allez utiliser React Router pour créer deux pages : une page d'accueil et une page "À propos". Ajoutez une navigation pour passer de l'une à l'autre. (Des installations avec npm sont nécéssaires)
 
     import React from 'react';
     import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
